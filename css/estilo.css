@@ -1,0 +1,253 @@
+/* Variables */
+:root{
+  /* color */
+--brown-color: #AC6200;
+--black-color: black;
+--white-color: white;
+--button-color: #F89500;
+/* Tipografia */
+
+/* Espaciado */
+}
+
+html, body{
+  /* Por defecto el html y el body vienen con un borde predeterminado */
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-family: TechnicBold;
+  background-color: rgba(241, 246, 92, 0.25);
+  border: black;
+  }
+
+nav{
+  display: flex;
+  background-color: var(--brown-color);
+  padding: 10px;
+  color: var(--black-color);
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 10px;
+  list-style: none;
+}
+
+nav li a{
+  color: var(--black-color);
+  text-decoration: none;
+  }
+
+nav li a:hover{
+  color: var(--white-color);
+}
+
+p{
+  font-size: 15px;
+}
+
+img{
+  Width:50%;
+  height: auto;
+  }
+
+footer{
+    display: flex;
+    background-color: rgba(223, 205, 179, 0.78);
+    padding: 10px;
+    color: var(--black-color);
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  label{
+    font-size: 15px;
+  }
+
+/* Main section */
+
+.main_section{
+  padding: 2.5%;
+  text-align: center;
+}
+
+.products{
+/* background:    background-image: url("../images/Trazado 1.png") ; */
+  height: 10px;
+  background-size: cover;
+  background-position: center top;
+  justify-content: center;
+  padding:8.5%;
+  display: flex;
+  margin-top: auto;
+  }
+
+.product{
+  padding:30px;
+  margin-top: -165px;
+  width: 20%;
+  text-align: center;
+}
+
+.product .content{
+  background-color: var(--white-color);
+  padding: 5%;
+  border-color: grey;
+  box-shadow: 0 0 2px var(--black-color);
+}
+
+.img_content{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main_button{
+  background-color: #F89500;
+  font-family: TechnicBold;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 15px;
+  color: var(--black-color);
+  text-align: center;
+  border-color: var(--black-color);
+  text-decoration: none;
+}
+
+.main_button:hover{
+  background-color: #FFF700;
+}
+
+.divisor{
+  background-color: rgba(241, 246, 92, 0.40);
+  width: 100%;
+  height: 2.5px;
+}
+
+/* Segunda Seccion */
+.scd_section{
+  padding: 1.5%;
+  text-align: center;
+}
+
+.products_2{
+  background-size: cover;
+  background-position: center top;
+  justify-content: center;
+  padding:5%;
+  display: flex;
+  margin-top: auto;
+  }
+
+.product_2{
+    padding:30px;
+    margin-top: -120px;
+    width: 20%;
+    text-align: center;
+  }
+
+.product_2 .content_2{
+    background-color: rgba(255, 216, 107, 0.75);
+    padding: 10%;
+    border-color: rgba(160, 130, 0, 0.11);
+    box-shadow: 0 0 2px var(--black-color);
+  }
+
+.divisor{
+  margin: auto;
+}
+
+.mentions_section{
+    padding: 2.5%;
+    text-align: center;
+    margin-top: auto;
+  }
+
+.mentions{
+  display: flex;
+  padding: 5%;
+  justify-content: space-between;
+  margin-top: -100px;
+  }
+
+.content_mention:hover{
+  box-shadow: 0 0 5px var(--black-color);
+}
+
+.content_mention img{
+  width: 100%;
+  height: 160px;
+}
+
+.mention p{
+  font-size: 10px;
+}
+
+.mention{
+  padding: 5px;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.content_mention{
+  max-width: 250px;
+  max-height: 250px;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+  background-color: white;
+  border-color: grey;
+}
+
+.mention .text{
+  padding: 10px;
+}
+
+/* footer */
+
+.RRSS{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Venta */
+
+.modulo_pago{
+  background-color: white;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+  padding: 10px;
+  height: 260px;
+  text-align: justify;
+}
+
+.modulo_pago_images{
+  max-width: 300px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.data{
+  margin-top: 5px;
+  width: 100%;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.main_button{
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

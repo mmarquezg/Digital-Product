@@ -1,0 +1,88 @@
+/* container > row > column  */
+.container{
+  max-width: 900px;
+  margin:auto;
+  padding: 25px;
+}
+
+h1 {
+  padding: 10px;
+  margin: 10px;
+}
+.row{
+  display: flex;
+}
+
+.col-1{
+  width: 8.3333333333%;
+}
+
+.col-2{
+  width: 16.6666666666%;
+}
+
+.col-3{
+  width: 24.9999999999%;
+}
+
+.col-4{
+  width: 33.3333333333%;
+}
+
+.col-5{
+  width: 41.6666666666%;
+}
+
+.col-6{
+  width: 49.9999999999%;
+}
+
+.col-7{
+  width: 58.3333333331%;
+}
+
+.col-8{
+  width: 66.6666666664%;
+}
+
+.col-9{
+  width: 74.9999999997%;
+}
+
+.col-10{
+  width: 83.3333333333%;
+}
+
+.col-11{
+  width: 91.6666666663%;
+}
+
+.col-12{
+  width: 100%;
+}
+
+
+/* ESPACIADO ENTRE COLUMNAS class^= que empiece con *= que tenga */
+[class^="col-"]{
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+@media (max-width: 600px) {
+  .row{
+    display: inherit;
+    padding: 10px;
+  }
+
+  .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+
+#product1 img {
+  Width:150px;
+  height: auto;
+  }

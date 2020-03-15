@@ -1,0 +1,51 @@
+/* Todo lo que esté por debajo de 600px se va a comportar como a continuación */
+/* Todo lo que está en estilo.ccs predomina, por lo que aqui se debe eliminar lo que haga conveniente para el diseño */
+@media (max-width: 600px) {
+
+.products{
+  display: inherit;
+  height: auto;
+  }
+.product{
+  margin: 20px auto;
+  width: 50%;
+  padding: 0;
+}
+
+.product .content{
+  padding: 20px;
+}
+
+.products_2{
+  display: inherit;
+  height: auto;
+  }
+.product_2{
+  margin: 20px auto;
+  width: 50%;
+  padding: 0;
+}
+
+.product_2 .content_2{
+  padding: 20px;
+}
+
+.mentions_section{
+    padding: 10%;
+  }
+
+.mentions{
+  display: inherit;
+  height: auto;
+  }
+.mention{
+  margin: 20px auto;
+  width: 70%;
+  padding: 0;
+}
+
+.product .content_mention{
+  padding: 20px;
+}
+
+}
